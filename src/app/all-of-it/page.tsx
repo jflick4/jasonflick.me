@@ -189,6 +189,15 @@ export default function AllOfItPage() {
               className="object-cover object-[center_30%]"
             />
           </div>
+          <Link href="/experiment/van-build" className="relative aspect-square overflow-hidden rounded-md">
+            <Image src="/images/van/van-mud-run-poster.jpg" alt="The van, mid-mud" fill sizes="(max-width: 768px) 50vw, 30vw" className="object-cover" />
+          </Link>
+          <Link href="/experiment/van-build" className="relative aspect-square overflow-hidden rounded-md">
+            <Image src="/images/van/van-camp-bikes-dog.jpg" alt="Camp: the van, two e-bikes, one dog" fill sizes="(max-width: 768px) 50vw, 30vw" className="object-cover object-[center_60%]" />
+          </Link>
+          <Link href="/experiment/van-build" className="relative aspect-square overflow-hidden rounded-md">
+            <Image src="/images/van/van-campsite.jpg" alt="The van at a campsite in the hills" fill sizes="(max-width: 768px) 50vw, 30vw" className="object-cover object-[center_55%]" />
+          </Link>
         </div>
       </Split>
 
