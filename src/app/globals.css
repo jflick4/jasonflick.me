@@ -101,8 +101,11 @@ body {
   background: none;
   padding: 0;
 }
-.prose-jf img {
+.prose-jf img,
+.prose-jf video {
+  width: 100%;
   border-radius: 6px;
+  background: var(--color-ink);
 }
 .prose-jf hr {
   border: 0;
