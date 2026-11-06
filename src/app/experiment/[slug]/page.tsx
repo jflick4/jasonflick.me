@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getProject, getProjects } from "@/lib/content";
 import { Container, Eyebrow, Placeholder } from "@/components/ui";
@@ -42,9 +43,16 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
       <Container className="grid grid-cols-1 gap-8 pb-20 md:grid-cols-12">
         <div className="md:col-span-8">
-          {!meta.image ? (
+          {meta.image ? (
+            <figure className="mb-8">
+              <div className="relative aspect-[16/10] overflow-hidden rounded-md">
+                <Image src={meta.image} alt={meta.imageAlt ?? meta.title} fill priority sizes="(max-width: 768px) 100vw, 66vw" className="object-cover" />
+              </div>
+              {meta.imageAlt ? <figcaption className="mt-2 text-[13px] text-muted">{meta.imageAlt}</figcaption> : null}
+            </figure>
+          ) : (
             <Placeholder label={meta.imageAlt ? `[${meta.imageAlt}]` : "[image]"} className="mb-8 aspect-[16/9]" />
-          ) : null}
+          )}
           <Markdown source={content} />
         </div>
         {meta.links?.length ? (

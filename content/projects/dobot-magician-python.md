@@ -7,6 +7,8 @@ order: 5
 links:
   - label: PyPI
     href: https://pypi.org/
+image: /images/projects/dobot.png
+imageAlt: Illustrative example of the library's API
 ---
 
 [Jason: link the PyPI package and the repo; one paragraph on what was wrong with the official SDK and what this fixes.]

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { getProjects, allTags } from "@/lib/content";
 import { Container, Eyebrow, PageHeader, Split, SectionTitle, Placeholder } from "@/components/ui";
 import { ProjectBrowser } from "@/components/ProjectBrowser";
@@ -44,11 +45,21 @@ export default function ExperimentPage() {
               <span className="text-[17px] leading-relaxed text-cream">{featured.meta.summary}</span>
               <span className="mt-1.5 text-sm text-accent">Read the notes →</span>
             </div>
-            <div className="md:col-span-5">
-              <Placeholder
-                label={featured.meta.imageAlt ? `[${featured.meta.imageAlt}]` : "[image]"}
-                className="aspect-[4/3] border-muted bg-ink-soft text-muted-dark"
-              />
+            <div className="relative aspect-[4/3] overflow-hidden rounded md:col-span-5">
+              {featured.meta.image ? (
+                <Image
+                  src={featured.meta.image}
+                  alt={featured.meta.imageAlt ?? featured.meta.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                  className="object-cover"
+                />
+              ) : (
+                <Placeholder
+                  label={featured.meta.imageAlt ? `[${featured.meta.imageAlt}]` : "[image]"}
+                  className="h-full border-muted bg-ink-soft text-muted-dark"
+                />
+              )}
             </div>
           </Link>
         </Container>
