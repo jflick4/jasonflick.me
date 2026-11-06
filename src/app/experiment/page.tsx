@@ -63,7 +63,7 @@ export default function ExperimentPage() {
           aside={
             <SectionTitle
               title="Companies"
-              note="The businesses. Two I run, one I help own, and the one that made the rest possible."
+              note="The businesses. Two I run, one I help own, two I sold for nine figures, and the one I started it all with."
             />
           }
         >
