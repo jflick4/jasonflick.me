@@ -1,7 +1,11 @@
 {
   "name": "Jason Flick",
   "url": "https://jasonflick.me",
-  "tagline": ["Wired to wonder.", "Built to experiment.", "Here for all of it."],
+  "tagline": [
+    "Wired to wonder.",
+    "Built to experiment.",
+    "Here for all of it."
+  ],
   "intro": "Founder of You.i TV, thirty years of startups, sixteen years on the board of Invest Ottawa — and a van that keeps getting me into trouble. This site is where I keep all of it.",
   "location": "Ottawa, Canada · sometimes Banff",
   "email": "hello@jasonflick.me",
@@ -22,7 +26,7 @@
       "label": "Experiment",
       "line": "Built to experiment.",
       "href": "/experiment",
-      "blurb": "Companies, robots, game engines, physics sims, and the van build."
+      "blurb": "Companies, robots, world models, physics sims, and the van build."
     },
     {
       "key": "all-of-it",
@@ -33,9 +37,18 @@
     }
   ],
   "wordOfTheYear": [
-    { "year": 2026, "word": "equanimity" },
-    { "year": 2025, "word": "fight for peace" },
-    { "year": 2024, "word": "peace" }
+    {
+      "year": 2026,
+      "word": "equanimity"
+    },
+    {
+      "year": 2025,
+      "word": "fight for peace"
+    },
+    {
+      "year": 2024,
+      "word": "peace"
+    }
   ],
   "askMeAbout": [
     "Selling a company",

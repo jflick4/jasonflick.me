@@ -91,9 +91,8 @@ export default function AboutPage() {
               part a résumé leaves out.]
             </p>
             <p>
-              I never stopped building. Right now that looks like physics simulations, a robot arm that plays an
-              iPad game, a golf simulator where real swings wreck a Lego city, a game studio, and an AI companion
-              for a van. Most of it lives under{" "}
+              I never stopped building. Right now that looks like physics simulations, a large world model with a
+              robot arm attached, a game studio, and an AI companion for a van. Most of it lives under{" "}
               <Link href="/experiment" className="border-b border-accent text-accent">
                 Experiment
               </Link>
