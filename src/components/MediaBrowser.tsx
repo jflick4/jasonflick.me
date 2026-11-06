@@ -85,9 +85,6 @@ export function MediaBrowser({
             {byTopic(talks).map((t, i) => {
               const inner = (
                 <>
-                  <div className="flex aspect-[16/9] items-center justify-center rounded border border-dashed border-muted-dark bg-card-deep text-[13px] text-muted">
-                    {t.href ? <PlayIcon size={28} /> : "[photo from the night]"}
-                  </div>
                   <span className="text-xs font-semibold uppercase tracking-[0.12em] text-muted">
                     {t.kind} · {t.year}
                   </span>

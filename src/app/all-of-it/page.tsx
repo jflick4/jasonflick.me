@@ -5,7 +5,7 @@ import giveback from "../../../content/giveback.json";
 import media from "../../../content/media.json";
 import site from "../../../content/site.json";
 import { getMarkdown } from "@/lib/content";
-import { Container, Eyebrow, PageHeader, Split, SectionTitle, Placeholder, Button } from "@/components/ui";
+import { Container, Eyebrow, PageHeader, Split, SectionTitle, Button } from "@/components/ui";
 import { PlayIcon } from "@/components/Icons";
 
 export const metadata: Metadata = {
@@ -189,9 +189,6 @@ export default function AllOfItPage() {
               className="object-cover object-[center_30%]"
             />
           </div>
-          <Placeholder label="[the van]" className="aspect-square" />
-          <Placeholder label="[a summit]" className="aspect-square" />
-          <Placeholder label="[the trouble]" className="aspect-square" />
         </div>
       </Split>
 

@@ -5,6 +5,7 @@ import { getProjects, getEssays, getMarkdown } from "@/lib/content";
 import { Container, Eyebrow, Button } from "@/components/ui";
 import { doorIcons } from "@/components/Icons";
 import giveback from "../../content/giveback.json";
+import book from "../../content/book.json";
 
 export default function Home() {
   const projects = getProjects().filter((p) => p.meta.status === "active").slice(0, 3);
@@ -13,7 +14,10 @@ export default function Home() {
   const [thisYear, ...pastYears] = site.wordOfTheYear;
 
   const doorItems: Record<string, { label: string; href: string }[]> = {
-    wonder: essays.map((e) => ({ label: e.meta.title, href: e.meta.draft ? "/wonder" : `/wonder/${e.meta.slug}` })),
+    wonder: [
+      { label: `${book.eyebrow}: ${book.title}`, href: "/wonder" },
+      ...essays.slice(0, 2).map((e) => ({ label: e.meta.title, href: e.meta.draft ? "/wonder" : `/wonder/${e.meta.slug}` })),
+    ],
     experiment: projects.map((p) => ({ label: p.meta.title, href: `/experiment/${p.meta.slug}` })),
     "all-of-it": [
       { label: `${giveback.roles[0].org} — ${giveback.roles[0].since} on the board`, href: "/all-of-it#give-back" },

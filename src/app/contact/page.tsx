@@ -46,7 +46,6 @@ export default function ContactPage() {
           <div className="flex flex-col gap-2 text-[15px]">
             <Eyebrow tone="muted">Elsewhere</Eyebrow>
             <a href={site.social.linkedin} className="text-accent hover:text-accent-deep">LinkedIn</a>
-            <a href={site.social.x} className="text-accent hover:text-accent-deep">X</a>
             <Link href="/press" className="text-accent hover:text-accent-deep">Press kit</Link>
           </div>
           <p className="text-sm leading-relaxed text-muted">{site.location}</p>

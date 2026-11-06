@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getProject, getProjects } from "@/lib/content";
-import { Container, Eyebrow, Placeholder } from "@/components/ui";
+import { Container, Eyebrow } from "@/components/ui";
 import { Markdown } from "@/components/Markdown";
 import { statusLabel } from "@/components/ProjectCard";
 
@@ -50,9 +50,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
               </div>
               {meta.imageAlt ? <figcaption className="mt-2 text-[13px] text-muted">{meta.imageAlt}</figcaption> : null}
             </figure>
-          ) : (
-            <Placeholder label={meta.imageAlt ? `[${meta.imageAlt}]` : "[image]"} className="mb-8 aspect-[16/9]" />
-          )}
+          ) : null}
           <Markdown source={content} />
         </div>
         {meta.links?.length ? (

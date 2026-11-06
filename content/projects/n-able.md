@@ -3,7 +3,7 @@ title: N-able Technologies
 summary: Co-founder and CTO. Remote monitoring and management software for IT service providers. Acquired by SolarWinds for over $100M.
 status: acquired
 tags: [Companies]
-year: "[years]–2013"
+year: "acquired 2013"
 order: 34
 ---
 

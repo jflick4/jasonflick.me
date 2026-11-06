@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { getProjects, allTags } from "@/lib/content";
-import { Container, Eyebrow, PageHeader, Split, SectionTitle, Placeholder } from "@/components/ui";
+import { Container, Eyebrow, PageHeader, Split, SectionTitle } from "@/components/ui";
 import { ProjectBrowser } from "@/components/ProjectBrowser";
 import { statusLabel } from "@/components/ProjectCard";
 
@@ -55,10 +55,7 @@ export default function ExperimentPage() {
                   className="object-cover"
                 />
               ) : (
-                <Placeholder
-                  label={featured.meta.imageAlt ? `[${featured.meta.imageAlt}]` : "[image]"}
-                  className="h-full border-muted bg-ink-soft text-muted-dark"
-                />
+                <div className="h-full rounded bg-ink-soft" />
               )}
             </div>
           </Link>

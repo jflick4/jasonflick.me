@@ -3,7 +3,7 @@ title: Dobot Magician for Python
 summary: A clean Python library for the Dobot Magician arm, published to PyPI because the official one made me sad.
 status: shipped
 tags: [Robots, "Open source"]
-order: 5
+order: 6
 links:
   - label: PyPI
     href: https://pypi.org/

@@ -22,9 +22,6 @@ export function Footer({
           <a href={site.social.linkedin} className="hover:text-ink" rel="me">
             LinkedIn
           </a>
-          <a href={site.social.x} className="hover:text-ink" rel="me">
-            X
-          </a>
           <Link href="/press" className="hover:text-ink">
             Press kit
           </Link>

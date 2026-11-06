@@ -87,8 +87,7 @@ export default function AboutPage() {
               I co-founded and ran You.i TV, which grew into a global platform for TV and streaming apps before
               WarnerMedia acquired it in 2020. Before that: N-able Technologies, which went to SolarWinds, and
               Flick Software, which I started during the 2001 Ottawa tech meltdown from the top floor of my
-              apartment. [One or two sentences in your voice about what those years were actually like — the
-              part a résumé leaves out.]
+              apartment.
             </p>
             <p>
               I never stopped building. Right now that looks like physics simulations, a large world model with a

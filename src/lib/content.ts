@@ -44,7 +44,7 @@ function readDir(dir: string) {
       const raw = fs.readFileSync(path.join(full, f), "utf8");
       const { data, content } = matter(raw);
       const slug = f.replace(/\.(md|mdx)$/, "");
-      return { slug, data, content };
+      return { slug, data, content: stripNotes(content) };
     });
 }
 
@@ -88,10 +88,18 @@ export function getEssay(slug: string) {
   return getEssays({ includeDrafts: true }).find((e) => e.meta.slug === slug) ?? null;
 }
 
+/** Strip editorial notes like "[Jason: …]" / "[Draft. …]" so they never render publicly. */
+export function stripNotes(md: string) {
+  return md
+    .replace(/^\s*\[(?:Jason|Draft)[^\]]*\]\s*$/gm, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 export function getMarkdown(file: string): { data: Record<string, unknown>; content: string } {
   const raw = fs.readFileSync(path.join(CONTENT, file), "utf8");
   const { data, content } = matter(raw);
-  return { data, content };
+  return { data, content: stripNotes(content) };
 }
 
 export function formatDate(iso: string) {

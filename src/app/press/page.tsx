@@ -16,7 +16,7 @@ export default function PressPage() {
     { key: "Short", words: "≈ 25 words", text: bios.short },
     { key: "Medium", words: "≈ 80 words", text: bios.medium },
     { key: "Long", words: "≈ 200 words", text: bios.long },
-  ];
+  ].filter((b) => !b.text.startsWith("["));
 
   return (
     <>
