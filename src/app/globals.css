@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+/* ---- Jason Flick design tokens (direction B) ---- */
+@theme {
+  --color-paper: #f4efe6;
+  --color-card: #efe8dc;
+  --color-card-deep: #e4dccd;
+  --color-rule: #ddd5c7;
+  --color-ink: #1c1a17;
+  --color-ink-soft: #2a2724;
+  --color-muted: #6b655b;
+  --color-muted-dark: #a39b8e;
+  --color-cream: #d9d2c5;
+  --color-accent: #c8372d;
+  --color-accent-deep: #b3301f;
+
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-paper);
+}
+
+/* Long-form prose (essays, project notes, bios) */
+.prose-jf {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--color-ink);
+}
+.prose-jf > * + * {
+  margin-top: 1.25em;
+}
+.prose-jf h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-top: 2.2em;
+}
+.prose-jf h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.25;
+  margin-top: 1.8em;
+}
+.prose-jf a {
+  color: var(--color-accent);
+  border-bottom: 1px solid var(--color-accent);
+}
+.prose-jf blockquote {
+  border-left: 2px solid var(--color-accent);
+  padding-left: 1.25rem;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 300;
+  color: var(--color-ink-soft);
+}
+.prose-jf ul,
+.prose-jf ol {
+  padding-left: 1.4rem;
+}
+.prose-jf ul {
+  list-style: disc;
+}
+.prose-jf ol {
+  list-style: decimal;
+}
+.prose-jf li + li {
+  margin-top: 0.4em;
+}
+.prose-jf code {
+  font-size: 0.9em;
+  background: var(--color-card);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+.prose-jf pre {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+.prose-jf pre code {
+  background: none;
+  padding: 0;
+}
+.prose-jf img {
+  border-radius: 6px;
+}
+.prose-jf hr {
+  border: 0;
+  border-top: 1px solid var(--color-rule);
+  margin: 2.5em 0;
+}
+
+/* Subtle entrance for hero text */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise {
+  animation: rise 0.7s ease-out both;
+}
+.rise-2 {
+  animation: rise 0.7s ease-out 0.12s both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .rise-2 {
+    animation: none;
+  }
+}

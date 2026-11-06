@@ -1,0 +1,17 @@
+{
+  "lede": "Investing is the smallest part of this. Almost all of it is give-back: boards, mentoring, and saying yes when someone hands me a microphone.",
+  "roles": [
+    { "org": "Invest Ottawa", "role": "Board of Directors", "since": "16 years", "note": "Ottawa's entrepreneur-led economic development organization. Sat on the CEO selection committee; rejoined the board for the current five-year strategy.", "href": "https://www.investottawa.ca/" },
+    { "org": "Sprott School of Business, Carleton University", "role": "Industry Advisory Board, Bachelor of Entrepreneurship", "since": "", "note": "", "href": "https://sprott.carleton.ca/" },
+    { "org": "DistillerSR", "role": "Board of Directors", "since": "", "note": "", "href": "https://www.distillersr.com/" },
+    { "org": "Startup Canada", "role": "Board (past)", "since": "", "note": "", "href": "https://www.startupcan.ca/" },
+    { "org": "Bayview Yards", "role": "Board (past)", "since": "", "note": "", "href": "" },
+    { "org": "The Ottawa Network", "role": "Board (past)", "since": "", "note": "", "href": "" }
+  ],
+  "investments": [
+    { "name": "Northern Forge Studios", "role": "Founder & Executive Chairman", "note": "Orna, Hero of Aethric", "href": "/experiment/northern-forge" },
+    { "name": "Sleep Efficiency", "role": "Investor & Executive Chairman", "note": "Take-home sleep apnea testing", "href": "" },
+    { "name": "Ottawa Rapid FC", "role": "Community investor", "note": "Northern Super League, 2025", "href": "" },
+    { "name": "App8", "role": "Investor & adviser", "note": "Mobile ordering and payments", "href": "" }
+  ]
+}

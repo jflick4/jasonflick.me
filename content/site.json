@@ -1,0 +1,49 @@
+{
+  "name": "Jason Flick",
+  "url": "https://jasonflick.me",
+  "tagline": ["Wired to wonder.", "Built to experiment.", "Here for all of it."],
+  "intro": "Founder of You.i TV, thirty years of startups, sixteen years on the board of Invest Ottawa — and a van that keeps getting me into trouble. This site is where I keep all of it.",
+  "location": "Ottawa, Canada · sometimes Banff",
+  "email": "hello@jasonflick.me",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/jasonflick/",
+    "x": "https://x.com/jasonflick"
+  },
+  "doors": [
+    {
+      "key": "wonder",
+      "label": "Wonder",
+      "line": "Wired to wonder.",
+      "href": "/wonder",
+      "blurb": "Essays, physics, consciousness, and the questions I can't put down."
+    },
+    {
+      "key": "experiment",
+      "label": "Experiment",
+      "line": "Built to experiment.",
+      "href": "/experiment",
+      "blurb": "Companies, robots, game engines, physics sims, and the van build."
+    },
+    {
+      "key": "all-of-it",
+      "label": "All of it",
+      "line": "Here for all of it.",
+      "href": "/all-of-it",
+      "blurb": "People, give-back, talks, boards, summits, and whatever's next."
+    }
+  ],
+  "wordOfTheYear": [
+    { "year": 2026, "word": "equanimity" },
+    { "year": 2025, "word": "fight for peace" },
+    { "year": 2024, "word": "peace" }
+  ],
+  "askMeAbout": [
+    "Selling a company",
+    "Building with AI",
+    "Game engines",
+    "The Fermi paradox",
+    "Ottawa's startup scene",
+    "Van life, badly",
+    "Golf"
+  ]
+}
