@@ -3,7 +3,7 @@ import Link from "next/link";
 import media from "../../../../content/media.json";
 import { Container, Eyebrow, PageHeader } from "@/components/ui";
 import { MediaBrowser } from "@/components/MediaBrowser";
-import { PlayIcon } from "@/components/Icons";
+import { YouTube } from "@/components/YouTube";
 
 export const metadata: Metadata = {
   title: "Talks & media",
@@ -37,16 +37,9 @@ export default function MediaPage() {
       />
 
       <Container className="pb-10">
-        <a
-          href={f.href}
-          className="grid grid-cols-1 items-center gap-6 rounded-md bg-ink p-7 text-paper md:grid-cols-12 md:p-10"
-        >
-          <div className="relative flex aspect-[16/9] flex-col justify-between rounded bg-ink-soft p-6 md:col-span-7">
-            <span className="font-display text-[28px] font-light leading-none text-muted-dark">TEDxKanata · 2015</span>
-            <span className="flex h-16 w-16 items-center justify-center self-center rounded-full bg-accent">
-              <PlayIcon size={22} className="text-paper" />
-            </span>
-            <span className="text-[13px] text-muted-dark">Watch on tedxkanata.com · {f.duration}</span>
+        <div className="grid grid-cols-1 items-center gap-6 rounded-md bg-ink p-7 text-paper md:grid-cols-12 md:p-10">
+          <div className="md:col-span-7">
+            <YouTube id={f.youtubeId} title={`${f.title} — ${f.venue}`} />
           </div>
           <div className="flex flex-col gap-3.5 md:col-span-5">
             <div className="flex items-center gap-2.5">
@@ -59,9 +52,11 @@ export default function MediaPage() {
               {f.title}
             </span>
             <span className="leading-relaxed text-cream">{f.blurb}</span>
-            <span className="mt-1.5 text-sm text-accent">Watch →</span>
+            <a href={f.href} className="mt-1.5 text-sm text-accent hover:text-paper">
+              Watch on YouTube →
+            </a>
           </div>
-        </a>
+        </div>
       </Container>
 
       <Container className="pb-16">

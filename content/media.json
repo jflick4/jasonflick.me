@@ -5,9 +5,11 @@
     "venue": "TEDxKanata",
     "year": 2015,
     "blurb": "The case that creativity and artistry — not R&D budgets — are what let companies win globally. Still the talk people bring up.",
-    "href": "https://www.tedxkanata.com/videos/artistry-and-innovation-jason-flick/",
-    "duration": "14 min",
-    "topics": ["Art + technology"]
+    "href": "https://www.youtube.com/watch?v=cQFGFZqnF14",
+    "topics": [
+      "Art + technology"
+    ],
+    "youtubeId": "cQFGFZqnF14"
   },
   "talks": [
     {
@@ -15,7 +17,9 @@
       "venue": "Carleton University, Faculty of Science Throwback",
       "year": 2026,
       "kind": "Talk",
-      "topics": ["Ottawa"],
+      "topics": [
+        "Ottawa"
+      ],
       "href": null
     },
     {
@@ -23,7 +27,9 @@
       "venue": "Panel with Ottawa Rapid FC and Ottawa Charge",
       "year": 2026,
       "kind": "Panel",
-      "topics": ["Ottawa"],
+      "topics": [
+        "Ottawa"
+      ],
       "href": null
     },
     {
@@ -31,7 +37,9 @@
       "venue": "The Pay TV Show, Denver",
       "year": 2019,
       "kind": "Panel",
-      "topics": ["Future of TV"],
+      "topics": [
+        "Future of TV"
+      ],
       "href": "https://thepaytvshow2019.sched.com/speaker/jason_flick.1z7td3sj"
     },
     {
@@ -39,8 +47,10 @@
       "venue": "TEDxKanata",
       "year": 2015,
       "kind": "Talk",
-      "topics": ["Art + technology"],
-      "href": "https://www.tedxkanata.com/videos/artistry-and-innovation-jason-flick/"
+      "topics": [
+        "Art + technology"
+      ],
+      "href": "https://www.youtube.com/watch?v=cQFGFZqnF14"
     }
   ],
   "podcasts": [
@@ -48,7 +58,9 @@
       "show": "Built to Sell Radio",
       "title": "The story behind the $100M sale to WarnerMedia",
       "year": 2021,
-      "topics": ["Selling a company"],
+      "topics": [
+        "Selling a company"
+      ],
       "href": "https://builttosell.com/radio/episode-276/",
       "featured": true
     },
@@ -56,56 +68,75 @@
       "show": "DealMakers",
       "title": "How he sold his startup to AT&T for over $100M",
       "year": 2021,
-      "topics": ["Selling a company"],
+      "topics": [
+        "Selling a company"
+      ],
       "href": "https://alejandrocremades.com/jason-flick/"
     },
     {
       "show": "The Exit",
       "title": "Taking over the television industry",
       "year": 2021,
-      "topics": ["Future of TV", "Selling a company"],
+      "topics": [
+        "Future of TV",
+        "Selling a company"
+      ],
       "href": "https://soundcloud.com/theexitpodcast/ep031"
     },
     {
       "show": "Techopia Live",
       "title": "Flick gets in the game with Northern Forge",
       "year": 2023,
-      "topics": ["Games", "Ottawa"],
+      "topics": [
+        "Games",
+        "Ottawa"
+      ],
       "href": "https://obj.ca/techopia-live-flick-gets-in-the-game-with-northern-forge/"
     },
     {
       "show": "Techopia Live",
       "title": "Lessons on company valuation",
       "year": 2021,
-      "topics": ["Selling a company"],
+      "topics": [
+        "Selling a company"
+      ],
       "href": "https://obj.ca/people/jason-flick/"
     },
     {
       "show": "Startup Canada Podcast",
       "title": "The entrepreneur's advantage",
       "year": 2018,
-      "topics": ["Art + technology"],
+      "topics": [
+        "Art + technology"
+      ],
       "href": "https://www.startupcan.ca/jason-flick-startup-podcast-2/"
     },
     {
       "show": "Techopia Live",
       "title": "You.i TV hunting for big wins in 2018",
       "year": 2018,
-      "topics": ["Future of TV", "Ottawa"],
+      "topics": [
+        "Future of TV",
+        "Ottawa"
+      ],
       "href": "https://obj.ca/techopia-live-ottawas-you-i-tv-hunting-for-big-wins-in-2018/"
     },
     {
       "show": "nScreenNoise",
       "title": "On the Turner relationship and the FilmStruck app",
       "year": 2017,
-      "topics": ["Future of TV"],
+      "topics": [
+        "Future of TV"
+      ],
       "href": "https://www.youtube.com/watch?v=o18zh4h4eUs"
     },
     {
       "show": "Startup Open House",
       "title": "How opening You.i TV's doors helps it grow",
       "year": 2016,
-      "topics": ["Ottawa"],
+      "topics": [
+        "Ottawa"
+      ],
       "href": "https://www.youtube.com/watch?v=_SLkDX9-6RI"
     }
   ],
@@ -174,11 +205,41 @@
     }
   ],
   "awards": [
-    { "year": 2023, "title": "Bootstrap Capital Award", "by": "The Ottawa Network / Smart & Biggar", "for": "Northern Forge Studios" },
-    { "year": 2019, "title": "Best Ottawa Business Award — Best Performance HR", "by": "Ottawa Board of Trade / OBJ", "for": "You.i TV" },
-    { "year": 2017, "title": "Most Innovative People in Multiscreen", "by": "CableFax", "for": "" },
-    { "year": 2016, "title": "#2 fastest-growing technology company in Canada", "by": "Branham 300", "for": "You.i TV" },
-    { "year": 2016, "title": "Entrepreneur Of The Year — Ontario finalist", "by": "EY", "for": "" },
-    { "year": 2015, "title": "Entrepreneur Of The Year — Ontario, Technology", "by": "EY", "for": "" }
+    {
+      "year": 2023,
+      "title": "Bootstrap Capital Award",
+      "by": "The Ottawa Network / Smart & Biggar",
+      "for": "Northern Forge Studios"
+    },
+    {
+      "year": 2019,
+      "title": "Best Ottawa Business Award — Best Performance HR",
+      "by": "Ottawa Board of Trade / OBJ",
+      "for": "You.i TV"
+    },
+    {
+      "year": 2017,
+      "title": "Most Innovative People in Multiscreen",
+      "by": "CableFax",
+      "for": ""
+    },
+    {
+      "year": 2016,
+      "title": "#2 fastest-growing technology company in Canada",
+      "by": "Branham 300",
+      "for": "You.i TV"
+    },
+    {
+      "year": 2016,
+      "title": "Entrepreneur Of The Year — Ontario finalist",
+      "by": "EY",
+      "for": ""
+    },
+    {
+      "year": 2015,
+      "title": "Entrepreneur Of The Year — Ontario, Technology",
+      "by": "EY",
+      "for": ""
+    }
   ]
 }
