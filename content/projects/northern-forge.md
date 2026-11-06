@@ -4,7 +4,7 @@ summary: Founder & Executive Chairman of an Ottawa game studio. Orna (a GPS RPG,
 status: ongoing
 tags: [Companies, Games]
 year: 2021–
-order: 8
+order: 30
 links:
   - label: Techopia Live — "Flick gets in the game"
     href: https://obj.ca/techopia-live-flick-gets-in-the-game-with-northern-forge/

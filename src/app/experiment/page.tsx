@@ -12,10 +12,12 @@ export const metadata: Metadata = {
 
 export default function ExperimentPage() {
   const all = getProjects();
-  const tags = allTags(all);
-  const featured = all.find((p) => p.meta.featured) ?? all[0];
-  const grid = all.filter((p) => p !== featured && p.meta.status !== "earlier").map((p) => p.meta);
-  const earlier = all.filter((p) => p.meta.status === "earlier");
+  const isCompany = (p: (typeof all)[number]) => p.meta.tags.includes("Companies");
+  const projects = all.filter((p) => !isCompany(p));
+  const companies = all.filter(isCompany);
+  const featured = projects.find((p) => p.meta.featured) ?? projects[0];
+  const grid = projects.filter((p) => p !== featured).map((p) => p.meta);
+  const projectTags = allTags(projects);
 
   return (
     <>
@@ -53,37 +55,37 @@ export default function ExperimentPage() {
       ) : null}
 
       <Container className="pb-16">
-        <ProjectBrowser projects={grid} tags={tags} />
+        <ProjectBrowser projects={grid} tags={projectTags} />
       </Container>
 
-      {earlier.length ? (
+      {companies.length ? (
         <Split
           aside={
             <SectionTitle
-              title="Earlier"
-              note="Companies, side quests, and things that didn't survive contact with reality."
+              title="Companies"
+              note="The businesses. Two I run, one I help own, and the one that made the rest possible."
             />
           }
         >
-          <ul className="flex flex-col border-t border-ink text-[16px]">
-            {earlier.map((p) => (
-              <li key={p.meta.slug}>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {companies.map((c) => {
+              const live = c.meta.status === "active" || c.meta.status === "ongoing";
+              return (
                 <Link
-                  href={`/experiment/${p.meta.slug}`}
-                  className="grid grid-cols-[96px_minmax(0,1fr)] items-baseline gap-4 border-b border-rule py-4 hover:text-accent md:grid-cols-[120px_minmax(0,1fr)_140px]"
+                  key={c.meta.slug}
+                  href={`/experiment/${c.meta.slug}`}
+                  className="flex flex-col gap-2.5 rounded-md bg-card p-6 transition-colors hover:bg-card-deep"
                 >
-                  <span className="text-sm text-muted">{p.meta.year ?? ""}</span>
-                  <span>
-                    <span className="font-medium">{p.meta.title}</span>{" "}
-                    <span className="text-muted">— {p.meta.summary}</span>
-                  </span>
-                  <span className="hidden text-right text-[13px] text-muted md:block">
-                    {p.meta.tags.join(" · ")}
-                  </span>
+                  <div className="flex items-center gap-2.5">
+                    <Eyebrow tone={live ? "accent" : "muted"}>{statusLabel(c.meta.status)}</Eyebrow>
+                    {c.meta.year ? <Eyebrow tone="muted">· {c.meta.year}</Eyebrow> : null}
+                  </div>
+                  <span className="font-display text-[26px] font-normal leading-[1.15]">{c.meta.title}</span>
+                  <span className="text-[15px] leading-relaxed text-muted">{c.meta.summary}</span>
                 </Link>
-              </li>
-            ))}
-          </ul>
+              );
+            })}
+          </div>
         </Split>
       ) : null}
     </>

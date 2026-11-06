@@ -4,7 +4,7 @@ summary: Co-founded in 2008 with Stuart Russell. Built the engine behind TV and 
 status: acquired
 tags: [Companies]
 year: 2008–2020
-order: 7
+order: 33
 imageAlt: You.i TV
 links:
   - label: Built to Sell Radio — the exit story
