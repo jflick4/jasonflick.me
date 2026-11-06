@@ -5,17 +5,71 @@
   "medium": "Jason Flick is the founder and former CEO of You.i TV, which he grew into a global platform for TV and streaming apps before its acquisition by WarnerMedia in 2020. Over thirty years he has started several companies, including N-able Technologies and Flick Software, and is now Executive Chairman of Northern Forge Studios. He has served on the board of Invest Ottawa for sixteen years, mentors founders, and makes a few angel investments. Away from the boardroom he builds AI and robotics experiments, writes about physics, and disappears into the Rockies in a 4x4 van.",
   "long": "[Long bio — the medium one plus the story: Aylmer, the Timex Sinclair, Carleton, the 2001 meltdown and Flick Software from an apartment, how You.i TV started and what it became, the boards and awards worth naming, the teaching at Carleton's Sprott School, and the personal paragraph about Banff, the van, and the word of the year. Jason to draft or dictate; Claude to tighten.]",
   "facts": [
-    { "label": "Name", "value": "Jason Flick" },
-    { "label": "Pronounced", "value": "JAY-sun FLICK" },
-    { "label": "Title", "value": "Founder & former CEO, You.i TV · Executive Chairman, Northern Forge Studios" },
-    { "label": "Boards", "value": "Invest Ottawa · DistillerSR · Sprott BENT Advisory · [others]" },
-    { "label": "Based in", "value": "Ottawa, Canada" },
-    { "label": "Speaks about", "value": "Startups · selling a company · AI · building things · getting outside" },
-    { "label": "Website", "value": "jasonflick.me" },
-    { "label": "Social", "value": "LinkedIn · X" }
+    {
+      "label": "Name",
+      "value": "Jason Flick"
+    },
+    {
+      "label": "Pronounced",
+      "value": "JAY-sun FLICK"
+    },
+    {
+      "label": "Title",
+      "value": "Founder & former CEO, You.i TV · Executive Chairman, Northern Forge Studios"
+    },
+    {
+      "label": "Boards",
+      "value": "Invest Ottawa · DistillerSR · Sprott BENT Advisory · [others]"
+    },
+    {
+      "label": "Based in",
+      "value": "Ottawa, Canada"
+    },
+    {
+      "label": "Speaks about",
+      "value": "Startups · selling a company · AI · building things · getting outside"
+    },
+    {
+      "label": "Website",
+      "value": "jasonflick.me"
+    },
+    {
+      "label": "Social",
+      "value": "LinkedIn · X"
+    }
   ],
   "photos": [
-    { "src": "/images/lake.jpg", "label": "Portrait — lake", "detail": "Colour · 3024 × 4032", "position": "center 30%" },
-    { "src": "/images/hero-rock.jpg", "label": "Environmental — Banff", "detail": "Colour · 4032 × 3024", "position": "62% center" }
-  ]
+    {
+      "src": "/images/press/jason-flick-headshot-studio.jpg",
+      "label": "Headshot — studio",
+      "detail": "Colour · 1254 × 1254 · square",
+      "position": "center 20%",
+      "primary": true
+    },
+    {
+      "src": "/images/press/jason-flick-event-mayor.jpg",
+      "label": "At an event",
+      "detail": "Colour · 2576 × 1717 · landscape",
+      "position": "58% 30%"
+    },
+    {
+      "src": "/images/press/jason-flick-northern-forge.jpg",
+      "label": "Northern Forge Studios",
+      "detail": "Colour · 1874 × 2576 · portrait",
+      "position": "center 25%"
+    },
+    {
+      "src": "/images/press/jason-flick-coat-hexwall.jpg",
+      "label": "Portrait — coat",
+      "detail": "Colour · 1512 × 2016 · portrait",
+      "position": "center 30%"
+    },
+    {
+      "src": "/images/press/jason-flick-casual-floral.jpg",
+      "label": "Casual",
+      "detail": "Colour · 588 × 1021 · portrait (web only)",
+      "position": "center 25%"
+    }
+  ],
+  "photosZip": "/images/press/jason-flick-press-photos.zip"
 }

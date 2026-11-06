@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import bios from "../../../content/bios.json";
 import media from "../../../content/media.json";
-import { Container, Eyebrow, PageHeader, SectionTitle, Split, Placeholder } from "@/components/ui";
+import { Container, Eyebrow, PageHeader, SectionTitle, Split } from "@/components/ui";
 import { CopyButton } from "@/components/CopyButton";
 
 export const metadata: Metadata = {
@@ -66,23 +66,31 @@ export default function PressPage() {
       {/* Photos */}
       <Split
         aside={
-          <SectionTitle title="Photos" note="Free to use with a program, article, or event listing. Credit not required." />
+          <SectionTitle title="Photos" note="Free to use with a program, article, or event listing. Credit not required. The studio headshot is the safe default.">
+            <a
+              href={bios.photosZip}
+              download
+              className="mt-2 self-start rounded bg-ink px-5 py-3 text-[15px] font-medium text-paper hover:bg-accent"
+            >
+              Download all (.zip)
+            </a>
+          </SectionTitle>
         }
       >
-        <div id="photos" className="grid grid-cols-1 gap-5 sm:grid-cols-3">
-          {bios.photos.map((p) => (
-            <div key={p.src} className="flex flex-col gap-2.5">
+        <div id="photos" className="grid grid-cols-2 gap-5 sm:grid-cols-3">
+          {bios.photos.map((p, i) => (
+            <div key={p.src} className={`flex flex-col gap-2.5 ${i === 0 ? "col-span-2 sm:col-span-1" : ""}`}>
               <a
                 href={p.src}
                 download
-                className="relative block aspect-[4/5] overflow-hidden rounded-md"
+                className={`relative block overflow-hidden rounded-md ${i === 0 ? "aspect-square" : "aspect-[4/5]"}`}
                 aria-label={`Download ${p.label}`}
               >
                 <Image
                   src={p.src}
                   alt={p.label}
                   fill
-                  sizes="(max-width: 640px) 100vw, 30vw"
+                  sizes="(max-width: 640px) 50vw, 30vw"
                   className="object-cover"
                   style={{ objectPosition: p.position }}
                 />
@@ -96,14 +104,6 @@ export default function PressPage() {
               </span>
             </div>
           ))}
-          <div className="flex flex-col gap-2.5">
-            <Placeholder
-              label="[Studio headshot — square, neutral background, for programs and name cards]"
-              className="aspect-[4/5]"
-            />
-            <span className="text-sm font-medium">Headshot — studio</span>
-            <span className="text-[13px] text-muted">[to shoot]</span>
-          </div>
         </div>
       </Split>
 
