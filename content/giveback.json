@@ -1,5 +1,5 @@
 {
-  "lede": "Investing is the smallest part of this. Almost all of it is give-back: boards, mentoring, and saying yes when someone hands me a microphone.",
+  "lede": "Investing is the smallest part of this. Almost all of it is give-back: boards, mentoring, and sharing what I've learned so other founders can skip a few of the scars.",
   "roles": [
     {
       "org": "Invest Ottawa",
@@ -7,6 +7,13 @@
       "since": "16 years",
       "note": "Ottawa's entrepreneur-led economic development organization. Sat on the CEO selection committee; rejoined the board for the current five-year strategy.",
       "href": "https://www.investottawa.ca/"
+    },
+    {
+      "org": "Ottawa Unlimited",
+      "role": "Board",
+      "since": "2024–",
+      "note": "The joint economic-development partnership of Invest Ottawa, the Ottawa Board of Trade and Ottawa Tourism — three agencies, one plan for the city.",
+      "href": "https://www.ottawabot.ca/ottawa-unlimited/"
     },
     {
       "org": "Sprott School of Business, Carleton University",

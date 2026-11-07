@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const toc = [
   { id: "building", label: "Building things" },
   { id: "giving", label: "Giving back" },
-  { id: "outside", label: "Outside" },
+  { id: "outside", label: "Out in the world" },
   { id: "values", label: "What I care about" },
   { id: "ask", label: "Ask me about" },
 ];
@@ -84,8 +84,8 @@ export default function AboutPage() {
           <section id="building" className="flex flex-col gap-4">
             <h2 className="font-display text-[32px] font-normal tracking-[-0.01em]">Building things</h2>
             <p>
-              I co-founded and ran You.i TV, which grew into a global platform for TV and streaming apps before
-              WarnerMedia acquired it in 2020. Before that: N-able Technologies, which went to SolarWinds, and
+              I co-founded and ran You.i TV, which grew into a global platform for TV and streaming apps before I
+              sold it to HBO/AT&amp;T in 2020. Before that: N-able Technologies, which went to SolarWinds, and
               Flick Software, which I started during the 2001 Ottawa tech meltdown from the top floor of my
               apartment.
             </p>
@@ -104,10 +104,12 @@ export default function AboutPage() {
             <p>{giveback.lede}</p>
             <p>
               I&apos;ve sat on the board of Invest Ottawa for sixteen years — the city&apos;s entrepreneur-led
-              economic development organization. I mentor founders, speak about entrepreneurship whenever someone
-              hands me a mic, and do a bit of angel investing. I also serve on the Industry Advisory Board for the
-              Bachelor of Entrepreneurship at Carleton&apos;s Sprott School of Business, and on the board of
-              DistillerSR. The full list is under{" "}
+              economic development organization — and on the board of Ottawa Unlimited, the partnership that ties
+              Invest Ottawa, the Ottawa Board of Trade and Ottawa Tourism into one plan for the city. I mentor
+              founders and talk about what I&apos;ve learned, mostly so other people can skip a few of the scars I
+              collected getting here. I do a bit of angel investing. I also serve on the Industry Advisory Board
+              for the Bachelor of Entrepreneurship at Carleton&apos;s Sprott School of Business, and on the board
+              of DistillerSR. The full list is under{" "}
               <Link href="/all-of-it" className="border-b border-accent text-accent">
                 All of it
               </Link>
@@ -116,11 +118,11 @@ export default function AboutPage() {
           </section>
 
           <section id="outside" className="flex flex-col gap-4">
-            <h2 className="font-display text-[32px] font-normal tracking-[-0.01em]">Outside</h2>
+            <h2 className="font-display text-[32px] font-normal tracking-[-0.01em]">Out in the world</h2>
             <p>
-              Fifteen-hour days in the Rockies, a big 4x4 van, and a talent for getting into trouble camping where
-              I probably shouldn&apos;t. The photo at the top is from a Banff trip; the one on the home page is
-              from another.
+              I travel by any means that gets me somewhere I haven&apos;t been — a fifteen-hour summit day in the
+              Rockies, a city I can&apos;t pronounce, a road that stopped being a road. The filter is simple: does
+              the experience grow me, mentally, physically, emotionally? The van helps. It isn&apos;t the point.
             </p>
             <div className="relative mt-2 aspect-[16/7] overflow-hidden rounded-md">
               <Image

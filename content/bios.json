@@ -1,8 +1,8 @@
 {
-  "intro": "Jason Flick is the founder and former CEO of You.i TV, which he grew into a global platform before it was acquired by WarnerMedia. He's spent thirty years building startups, sixteen of them on the board of Invest Ottawa, and these days he spends his time mentoring founders, building strange experiments with AI and robots, and climbing things in Banff. Please welcome Jason Flick.",
+  "intro": "Jason Flick is the founder and former CEO of You.i TV, which he grew into a global platform before selling it to HBO/AT&T. He's spent thirty years building startups, sixteen of them on the board of Invest Ottawa, and these days he spends his time mentoring founders, building strange experiments with AI and robots, and climbing things in Banff. Please welcome Jason Flick.",
   "introSeconds": 25,
-  "short": "Jason Flick is a serial entrepreneur, angel investor, and founder of You.i TV. He builds experimental things with AI and robots, and climbs mountains in between.",
-  "medium": "Jason Flick is the founder and former CEO of You.i TV, which he grew into a global platform for TV and streaming apps before its acquisition by WarnerMedia in 2020. Over thirty years he has started several companies, including N-able Technologies and Flick Software, and is now Executive Chairman of Northern Forge Studios. He has served on the board of Invest Ottawa for sixteen years, mentors founders, and makes a few angel investments. Away from the boardroom he builds AI and robotics experiments, writes about physics, and disappears into the Rockies in a 4x4 van.",
+  "short": "Jason Flick is a serial entrepreneur, angel investor, and founder of You.i TV, which he sold to HBO/AT&T. He builds experimental things with AI and robots, and climbs mountains in between.",
+  "medium": "Jason Flick is the founder and former CEO of You.i TV, which he grew into a global platform for TV and streaming apps before selling it to HBO/AT&T (WarnerMedia) in 2020. Over thirty years he has started several companies, including N-able Technologies and Flick Software, and is now Executive Chairman of Northern Forge Studios and Sleep Efficiency. He has served on the board of Invest Ottawa for sixteen years, mentors founders, and makes a few angel investments. Away from the boardroom he builds AI and robotics experiments, writes about physics, and travels anywhere that stretches him — the Rockies most often.",
   "long": "[Long bio — the medium one plus the story: Aylmer, the Timex Sinclair, Carleton, the 2001 meltdown and Flick Software from an apartment, how You.i TV started and what it became, the boards and awards worth naming, the teaching at Carleton's Sprott School, and the personal paragraph about Banff, the van, and the word of the year. Jason to draft or dictate; Claude to tighten.]",
   "facts": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "label": "Boards",
-      "value": "Invest Ottawa · DistillerSR · Sprott BENT Advisory"
+      "value": "Invest Ottawa · Ottawa Unlimited · DistillerSR · Sprott BENT Advisory"
     },
     {
       "label": "Based in",

@@ -15,7 +15,7 @@ const reasons = [
   },
   {
     title: "You want me on a stage or a mic",
-    body: "Talks, panels, podcasts. Startups, selling a company, art + technology, AI, Ottawa. The press kit has bios and photos ready to go.",
+    body: "Talks, panels, podcasts. Mostly lessons learned, shared so the next founder can skip a few scars: selling a company, building with AI, art + technology, Ottawa. The press kit has bios and photos ready to go.",
   },
   {
     title: "You've got a strange idea",

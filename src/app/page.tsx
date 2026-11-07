@@ -22,7 +22,7 @@ export default function Home() {
     "all-of-it": [
       { label: `${giveback.roles[0].org} — ${giveback.roles[0].since} on the board`, href: "/all-of-it#give-back" },
       { label: "Talks & media", href: "/all-of-it/media" },
-      { label: "Banff, the van, and the trouble", href: "/all-of-it#outside" },
+      { label: "Out in the world — travel, summits, the trouble", href: "/all-of-it#outside" },
     ],
   };
 

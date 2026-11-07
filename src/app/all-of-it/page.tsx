@@ -23,7 +23,7 @@ export default function AllOfItPage() {
       <PageHeader
         eyebrow="All of it"
         title="Here for all of it."
-        lede="The people part. Boards and mentoring, talks and media, the mountains and the van, and what I'm actually doing right now."
+        lede="The people part. Boards and mentoring, talks and media, the places that stretch me, and what I'm actually doing right now."
       />
 
       {/* Jump links */}
@@ -32,7 +32,7 @@ export default function AllOfItPage() {
           ["#give-back", "Give-back & boards"],
           ["/all-of-it/media", "Talks & media"],
           ["#investments", "Investments"],
-          ["#outside", "Outside"],
+          ["#outside", "Out in the world"],
           ["/now", "Now"],
         ].map(([href, label]) => (
           <Link key={href} href={href} className="rounded-full border border-ink px-4 py-2.5 hover:bg-ink hover:text-paper">
@@ -163,8 +163,8 @@ export default function AllOfItPage() {
       <Split
         aside={
           <SectionTitle
-            title="Outside"
-            note="Banff summits, a 4x4 van, and the trouble that follows. Photos, mostly."
+            title="Out in the world"
+            note="Travel by any means that grows me — mentally, physically, emotionally. Summits, roads, cities. Photos, mostly."
           >
             <span id="outside" />
           </SectionTitle>

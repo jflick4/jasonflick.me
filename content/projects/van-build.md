@@ -1,14 +1,14 @@
 ---
 title: The van build
-summary: A Winnebago Revel — 4x4 Sprinter — and the places it has gotten stuck. Part project, part confession.
+summary: A 4x4 Sprinter camper and the systems inside it. The van is a tool for getting somewhere; the somewhere is the point.
 status: ongoing
 tags: ["The van"]
-order: 7
+order: 9
 image: /images/van/van-campsite.jpg
 imageAlt: The van at a campsite in the hills, chocks in, nothing on fire yet
 ---
 
-The van is a Winnebago Revel: a 4x4 Mercedes Sprinter with a bed, a kitchen, solar, and a false sense of invincibility. It's the mobile base for the summits, the e-bikes, the dog, and the AI companion I'm building for it.
+The van is a Winnebago Revel: a 4x4 Mercedes Sprinter with a bed, a kitchen, solar, and a false sense of invincibility. It's a tool — the thing that gets me, the e-bikes, the dog, and the AI companion I'm building for it to places worth getting to.
 
 <video controls playsInline preload="none" poster="/images/van/van-mud-run-poster.jpg" src="/images/van/van-mud-run.mp4" />
 

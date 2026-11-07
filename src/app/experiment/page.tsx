@@ -8,7 +8,7 @@ import { statusLabel } from "@/components/ProjectCard";
 
 export const metadata: Metadata = {
   title: "Experiment",
-  description: "Companies, robots, game engines, physics sims, and a van. Built to experiment.",
+  description: "Companies, robots, world models, physics sims. Built to experiment.",
 };
 
 export default function ExperimentPage() {
@@ -25,7 +25,7 @@ export default function ExperimentPage() {
       <PageHeader
         eyebrow="Experiment"
         title="Built to experiment."
-        lede="Companies, robots, world models, physics sims, and a van. Some of these made money. Most of them made me happy. All of them taught me something."
+        lede="Companies, robots, world models, physics sims. Some of these made money. Most of them made me happy. All of them taught me something."
       />
 
       {featured ? (
