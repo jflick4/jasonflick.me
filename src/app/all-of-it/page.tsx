@@ -164,7 +164,7 @@ export default function AllOfItPage() {
         aside={
           <SectionTitle
             title="Out in the world"
-            note="Travel by any means that grows me — mentally, physically, emotionally. Summits, roads, cities. Photos, mostly."
+            note="Travel by any means that grows me — mentally, physically, emotionally. Summits, roads, cities, and the night sky. Photos, mostly."
           >
             <span id="outside" />
           </SectionTitle>
@@ -189,6 +189,10 @@ export default function AllOfItPage() {
               className="object-cover object-[center_30%]"
             />
           </div>
+          <Link href="/experiment/skytruth" className="relative aspect-square overflow-hidden rounded-md">
+            <Image src="/images/astro/ngc2359-skytruth.jpg" alt="NGC 2359, Thor's Helmet, stacked with SkyTruth" fill sizes="(max-width: 768px) 50vw, 30vw" className="object-cover" />
+            <span className="absolute bottom-3 left-3 rounded bg-ink/70 px-2 py-1 text-xs font-semibold uppercase tracking-[0.1em] text-paper">Astrophotography</span>
+          </Link>
           <Link href="/experiment/van-build" className="relative aspect-square overflow-hidden rounded-md">
             <Image src="/images/van/van-mud-run-poster.jpg" alt="The van, mid-mud" fill sizes="(max-width: 768px) 50vw, 30vw" className="object-cover" />
           </Link>
