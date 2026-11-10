@@ -19,7 +19,7 @@ I built a version we could play when we're not in the same room. Then I kept goi
 
 ## Three ways to play, three sets of rules
 
-![The match setup — pick an opponent, a difficulty, and a rule set](/images/projects/upwords-modes.jpg)
+![The three rule sets — Classic, Classic Pivot, and Clash](/images/projects/upwords-modes.jpg)
 
 **Classic** is the real game, unchanged: one row or one column per turn.
 
