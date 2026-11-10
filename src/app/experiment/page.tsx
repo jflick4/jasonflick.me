@@ -52,7 +52,7 @@ export default function ExperimentPage() {
                   alt={featured.meta.imageAlt ?? featured.meta.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 40vw"
-                  className="object-cover"
+                  className="object-contain"
                 />
               ) : (
                 <div className="h-full rounded bg-ink-soft" />

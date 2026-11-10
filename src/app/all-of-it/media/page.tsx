@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import media from "../../../../content/media.json";
 import { Container, Eyebrow, PageHeader } from "@/components/ui";
 import { MediaBrowser } from "@/components/MediaBrowser";
@@ -56,6 +57,15 @@ export default function MediaPage() {
               Watch on YouTube →
             </a>
           </div>
+        </div>
+      </Container>
+
+      <Container className="grid grid-cols-1 gap-4 pb-12 md:grid-cols-12">
+        <div className="relative aspect-[6/5] overflow-hidden rounded-md md:col-span-4 md:aspect-auto md:h-full">
+          <Image src="/images/media/on-stage.jpg" alt="Jason on stage, mid-story, microphone in hand" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-[center_20%]" />
+        </div>
+        <div className="relative aspect-[2/1] overflow-hidden rounded-md md:col-span-8">
+          <Image src="/images/media/panel.jpg" alt="Jason speaking on a four-person panel" fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover" />
         </div>
       </Container>
 
